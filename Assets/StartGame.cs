@@ -16,7 +16,7 @@ public class StartGame : MonoBehaviour
         startText.text = (timeLeft).ToString("0");
         if (timeLeft < 0)
         {
-            SceneManager.LoadScene("10secondgame");
+            SceneManager.LoadScene("10secgame");
         }
     }
 }

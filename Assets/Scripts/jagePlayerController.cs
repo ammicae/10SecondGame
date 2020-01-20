@@ -16,6 +16,7 @@ public class jagePlayerController : MonoBehaviour {
     private Rigidbody2D rb2d;		//Store a reference to the Rigidbody2D component required to use 2D Physics.
 	private int count;				//Integer to store the number of pickups collected so far.
 
+
 	// Use this for initialization
 	void Start()
 	{

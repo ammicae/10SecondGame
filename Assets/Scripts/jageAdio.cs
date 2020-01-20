@@ -18,5 +18,7 @@ public class jageAdio : MonoBehaviour
         GetComponent<AudioSource>().Play();
     }
    
+
+
 }
 

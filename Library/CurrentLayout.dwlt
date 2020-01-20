@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 950, y: 542}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -42,10 +42,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 679, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
+  m_MinSize: {x: 681, y: 342}
+  m_MaxSize: {x: 12006, y: 8042}
   vertical: 0
-  controlID: 48
+  controlID: 98
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -64,8 +64,8 @@ MonoBehaviour:
     y: 0
     width: 560
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 71}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -115,14 +115,14 @@ MonoBehaviour:
     y: 676
     width: 1360
     height: 271
-  m_MinSize: {x: 232, y: 271}
-  m_MaxSize: {x: 10002, y: 10021}
-  m_ActualView: {fileID: 14}
+  m_MinSize: {x: 102, y: 121}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 14}
   - {fileID: 19}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -207,10 +207,10 @@ MonoBehaviour:
     y: 0
     width: 1360
     height: 947
-  m_MinSize: {x: 404, y: 492}
-  m_MaxSize: {x: 10002, y: 14042}
+  m_MinSize: {x: 404, y: 342}
+  m_MaxSize: {x: 8004, y: 8042}
   vertical: 1
-  controlID: 49
+  controlID: 99
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -234,7 +234,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 221}
   m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
-  controlID: 50
+  controlID: 100
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -360,19 +360,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: F:\Users\PC\Documents\Unity\2D Rollingball
+  m_LastProjectPath: F:\Users\PC\Documents\Unity\10SecondGame
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 98290000
-    m_LastClickedID: 10648
-    m_ExpandedIDs: 0000000098290000c02b000000ca9a3bffffff7f
+    m_SelectedIDs: 36280000
+    m_LastClickedID: 10294
+    m_ExpandedIDs: 000000009627000006290000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -400,7 +400,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000098290000c02b0000
+    m_ExpandedIDs: 000000009627000006290000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -425,8 +425,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs: 7abeffff
+    m_LastClickedInstanceID: -16774
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000fe300000c429000000000000
     m_RenameOverlay:
@@ -520,7 +520,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 42aeebff08afebff18b0ebff1cb0ebff20b0ebff24b0ebff14b4ebff8eb4ebff9eb5ebffa2b5ebffa6b5ebffaab5ebffccbdebff92beebffa2bfebffa6bfebffaabfebffaebfebff64dfebff2ae0ebff3ae1ebff3ee1ebff42e1ebff46e1ebff3e16ecff0417ecff1418ecff1818ecff1c18ecff2018ecff1833ecffde33ecffee34ecfff234ecfff634ecfffa34ecffa674ecff7075ecff8076ecff8476ecff8876ecff8c76ecffbea3ecff88a4ecff98a5ecff9ca5ecffa0a5ecffa4a5ecfffcaeecffc4afecffd4b0ecffd8b0ecffdcb0ecffe0b0ecff5cd4ecff26d5ecff36d6ecff3ad6ecff40d6ecff54d6ecff66daecffdedaecffeedbecfff2dbecfff8dbecff0cdcecff920cedff580dedff680eedff6c0eedff700eedff840eedffe285f5ff56def5ff3250f6ffb852f6ff5472f6ff6473f6ffb0d8f7ff84ddf7ff1eedf7ffd2edf7ffeaeef7ffbefefbff00faffff000000009c2a0000e42a0000b84f00006c51000076680000ea8d0000269100003291000056a6000066b5000002b6000050c50000cecb00009ed60000
+    m_ExpandedIDs: 24f4ffffc6f4ffffe8f5ffffecf5fffff2f5fffff6f5ffff7afbffff7cfbffff7efbffff80fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -540,7 +540,7 @@ MonoBehaviour:
     m_SearchString: 
   m_ExpandedScenes:
   - gamestart
-  - 10secondgame
+  - 10secgame
   - gameover
   - gamewin
   m_CurrenRootInstanceID: 0
@@ -579,9 +579,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 504, y: 283.5, z: 0}
+    m_Target: {x: 35.91307, y: -42.80952, z: 18.046476}
     speed: 2
-    m_Value: {x: 504, y: 283.5, z: 0}
+    m_Value: {x: 35.91307, y: -42.80952, z: 18.046476}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -609,9 +609,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 1908.2683
+    m_Target: 101.648315
     speed: 2
-    m_Value: 1908.2683
+    m_Value: 101.648315
   m_Ortho:
     m_Target: 1
     speed: 2
